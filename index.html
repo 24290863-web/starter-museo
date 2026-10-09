@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Museo Web de la Evolución Gráfica" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Museo Web de la Evolución Gráfica</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header>
+      <nav aria-label="Navegación principal">
+        <a href="#evolucion">Evolución</a>
+        <a href="#aplicacion">Aplicación</a>
+        <a href="#laboratorio">Color</a>
+        <a href="#algoritmo">Algoritmo</a>
+        <a href="#fuentes">Fuentes</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <!-- Portada -->
+      <section class="hero">
+        <div class="hero-contenido">
+          <h1>Misión 1: Graficación</h1>
+          <p>Disciplina que se encarga de generar, manipular y representar imágenes digitales mediante algoritmos y técnicas de visualización.</p>
+          <p>Autor: Jonathan Ulises Moreno Cisneros</p>
+        </div>
+
+        <div class="hero-imagenes-escalonadas">
+          <div class="img-box" data-text="Toy Story: pionera en animación digital">
+            <img src="./Imagenes/I_Definicion/toystory.jpg" alt="Ejemplo 1" />
+          </div>
+          <div class="img-box" data-text="CGI: imágenes generadas por computadora">
+            <img src="./Imagenes/I_Definicion/CGI.jpg" alt="Ejemplo 2" />
+          </div>
+          <div class="img-box" data-text="Arquitectura: visualización de espacios">
+            <img src="./Imagenes/I_Definicion/arquitectura.jpg" alt="Ejemplo 3" />
+          </div>
+          <div class="img-box" data-text="Simuladores: entrenamiento con gráficos">
+            <img src="./Imagenes/I_Definicion/simulador.jpg" alt="Ejemplo 4" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Evolución -->
+      <section id="evolucion">
+        <h2>Cinco momentos de la evolución</h2>
+
+        <!-- Momento 1 -->
+        <article class="momento activo">
+          <div class="momento-texto">
+            <h3>Momento 1</h3>
+            <p><strong>Limitación anterior:</strong> Calculos Complejos a Mano</p>
+            <p><strong>Cambio:</strong> Eniac la primera computadora con la capacidad de hacer esos calculos</p>
+            <p><strong>Impacto:</strong> El nacimiento de la programacion</p>
+            <p><strong>Ejemplo actual:</strong> El impulso de la era digital</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <img src="./Imagenes/I_Historia/primero.jpg" alt="Momento 1" />
+          </div>
+        </article>
+
+        <!-- Momento 2 -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Momento 2</h3>
+            <p><strong>Limitación anterior:</strong> Poca iteractividad con maquina y escritura</p>
+            <p><strong>Cambio:</strong> Un lapiz optico capaz detectar la posicion señalada en pantalla</p>
+            <p><strong>Impacto:</strong> Poder "dibujar" en la pantalla, creacion dle primer videojuego (Tennis for two)</p>
+            <p><strong>Ejemplo actual:</strong> Dibujo digital por medio de estos lapices</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <img src="./Imagenes/I_Historia/segundo.jpg" alt="Momento 2" />
+          </div>
+        </article>
+
+        <!-- Momento 3 -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Momento 3</h3>
+            <p><strong>Limitación anterior:</strong> Ausencia de interfaces visuales</p>
+            <p><strong>Cambio:</strong> Gracos Vectoriales y mapas de bits</p>
+            <p><strong>Impacto:</strong> Revolucion de diseño grafico, publicidad y desarrollo</p>
+            <p><strong>Ejemplo actual:</strong> Fotografia virtuales, videos y Inteligencia Artificial</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <img src="./Imagenes/I_Historia/tercero.jpg" alt="Momento 3" />
+          </div>
+        </article>
+
+        <!-- Momento 4 -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Momento 4</h3>
+            <p><strong>Limitación anterior:</strong> Todo el procesamiento dependia de la CPU generando cuello de botella</p>
+            <p><strong>Cambio:</strong> GPU, calculos en paralelo y aceleracion de procesos de graficos</p>
+            <p><strong>Impacto:</strong> Eficiencia en graficos 2d y 3d ofreciendo mayor satisfaccion</p>
+            <p><strong>Ejemplo actual:</strong> Desempeño en los juegos competitivos</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <img src="./Imagenes/I_Historia/cuarto.jpg" alt="Momento 4" />
+          </div>
+        </article>
+
+        <!-- Momento 5 -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Momento 5</h3>
+            <p><strong>Limitación anterior:</strong> Paginas Web congeladas debido al renderizado todo dependiendo de la CPU</p>
+            <p><strong>Cambio:</strong> WebGL una interfaz de aplicaciones en JavaScript</p>
+            <p><strong>Impacto:</strong> Un mundo a la interactividad y multimedio sin necesidad de programas adicionales</p>
+            <p><strong>Ejemplo actual:</strong> Experiencias de Realidad Virtual</p>
+            <li>Wikipedia: <a href="https://webglsamples.org/" target="_blank">Una Pagina WebGL</a></li>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <img src="./Imagenes/I_Historia/quinto.jpg" alt="Momento 5" />
+          </div>
+        </article>
+      </section>
+
+      <!-- Aplicacion-->
+      <section id="aplicacion">
+        <h2>Una Aplicación Real</h2>
+        <p><strong>Usuario:</strong>Un diseñador de niveles gráfica dentro de un estudio de desarrollo.</p>
+        <p><strong>Problema:</strong>
+          El mapa del videojuego sufre caídas graves de rendimiento (FPS) en ciertas zonas urbanas debido a que la computadora está
+          intentando calcular y dibujar demasiados objetos que el jugador ni siquiera puede ver.
+        </p>
+        <p><strong>Datos:</strong>
+          Las matrices numéricas que contienen las coordenadas de ubicación de los objetos en el espacio tridimensional, 
+          los archivos de mallas de polígonos, las texturas y el historial de consumo de memoria de la tarjeta gráfica (VRAM) 
+          en tiempo real durante las pruebas de juego.
+        </p>
+        <p><strong>Representacion:</strong>
+          El motor gráfico del desarrollador (como o Unity) genera un mapa de calor 3D interactivo. 
+          En lugar de mostrar el juego con sus colores normales, los algoritmos de graficación pintan la pantalla con un 
+          código de color especial: las zonas que cargan de forma eficiente se ven azules,
+          mientras que las calles que están sobrecargadas de polígonos invisibles o luces duplicadas brillan en un
+          rojo intenso o blanco incandescente.
+        </p>
+        <p><strong>Desicion:</strong>
+          Al ver la representación gráfica del problema en color rojo, el diseñador toma la decisión técnica: 
+          aplica de forma manual un límite virtual que le dice al motor gráfico que destruya o 
+          deje de dibujar temporalmente todo lo que quede tapado por las paredes de los edificios principales. 
+          Esto reduce la carga geométrica al instante y estabiliza el juego a 60 FPS estables.
+        </p>
+        <div class="aplicacion-imagen">
+          <img src="./Imagenes/ejemplo.png" alt="Ejemplo de aplicación real" />
+        </div>
+      </section>
+
+      <!-- Laboratorio de Color -->
+      <section id="laboratorio">
+        <h2>Laboratorio de Color</h2>
+
+        <!-- Negro con nota CMY -->
+        <article class="momento activo">
+          <div class="momento-texto">
+            <h3>Negro</h3>
+            <p>Al no tener un color que domine todo se baja a 0, por ende su Max and Min sera 0</p>
+            <p><strong>Nota CMY:</strong> modelo de color sustractivo basado en la mezcla de pigmentos: cian, magenta, amarillo y negro que se utiliza principalmente en el ámbito de la impresión física.</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <div class="color-box" style="background:#000;"></div>
+          </div>
+        </article>
+
+        <!-- Blanco con nota HSV -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Blanco</h3>
+            <p>Aqui es opuesto del negro se aumenta al limite de 255, sin embargo el Max y Min permanesera igual</p>
+            <p><strong>Nota HSV:</strong> La principal diferencia entre HSL y HSV está en cómo manejan la claridad o el brillo máximo de un color.</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <div class="color-box" style="background:#fff; border:1px solid #333;"></div>
+          </div>
+        </article>
+
+        <!-- Gris con nota HSL -->
+        <article class="momento">
+          <div class="momento-texto">
+            <h3>Gris</h3>
+            <p>A diferencia de los toros donde sus valores de HSV este tiene un 50% en V, apesar de que sus colores de r g y b sean los mismos</p>
+            <p><strong>Nota HSL:</strong>significa Tono (Hue), Saturación (Saturation) y Luminosidad (Lightness), y se usa de forma intuitiva en diseño web y en código..</p>
+            <div class="botones">
+              <button class="btn anterior">Anterior</button>
+              <button class="btn siguiente">Siguiente</button>
+            </div>
+          </div>
+          <div class="momento-imagen">
+            <div class="color-box" style="background:#777;"></div>
+          </div>
+        </article>
+
+        <!-- Experimento RGB -->
+        <div class="rgb-experimento">
+          <h3>Experimenta con RGB</h3>
+          <label>R: <input type="number" id="r" min="0" max="255" value="0"></label>
+          <label>G: <input type="number" id="g" min="0" max="255" value="0"></label>
+          <label>B: <input type="number" id="b" min="0" max="255" value="0"></label>
+          <button class="btn" onclick="actualizarColor()">Aplicar</button>
+          <div id="resultado-color"></div>
+        </div>
+      </section>
+
+      <!-- De la fórmula al algoritmo -->
+      <section id="algoritmo">
+        <h2>De la Fórmula al Algoritmo</h2>
+
+        <article class="algoritmo-bloque">
+          <div class="algoritmo-texto">
+            <h3>Ejemplo: Conversión RGB a HSV</h3>
+            <p>La fórmula matemática para convertir colores en el modelo RGB al modelo HSV puede transformarse en un algoritmo implementado en JavaScript:</p>
+      
+            <pre><code>
+              function convertRGBtoHSV(r, g, b) {
+                const red = r / 255;
+                const green = g / 255;
+                const blue = b / 255;
+
+                const max = Math.max(red, green, blue);
+                const min = Math.min(red, green, blue);
+                const delta = max - min;
+
+                let h = 0;
+                let s = 0;
+                let v = 0;
+
+                // Valor
+                v = max * 100;
+
+                // Saturación
+                if (max === 0) {
+                  s = 0;
+                } else {
+                  s = (delta / max) * 100;
+                }
+
+                // Tono
+                if (delta !== 0) {
+                  if (max === red) {
+                    h = 60 * (((green - blue) / delta) % 6);
+                  } else if (max === green) {
+                    h = 60 * (((blue - red) / delta) + 2);
+                  } else {
+                    h = 60 * (((red - green) / delta) + 4);
+                  }
+                }
+
+                // Ajustar rango 0–360
+                if (h < 0) h += 360;
+                return [h, s, v];
+              }
+            </code></pre>
+
+            <p>Este algoritmo toma los valores de R, G y B y devuelve el tono (H), la saturación (S) y el valor (V) en porcentajes y grados.</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Glosario -->
+      <section id="glosario">
+        <h2>Glosario</h2>
+        <dl>
+          <dt>Algoritmo</dt>
+          <dd>Conjunto de pasos ordenados que permiten resolver un problema o realizar una tarea.</dd>
+
+          <dt>RGB</dt>
+          <dd>Modelo de color basado en la combinación de Rojo (Red), Verde (Green) y Azul (Blue).</dd>
+
+          <dt>HSV</dt>
+          <dd>Modelo de color que describe los colores en términos de Tono (Hue), Saturación (Saturation) y Valor (Value).</dd>
+
+          <dt>Graficación</dt>
+          <dd>Disciplina que se encarga de generar, manipular y representar imágenes digitales mediante algoritmos.</dd>
+        </dl>
+      </section>
+
+      <!-- Conclusión -->
+      <section id="conclusion">
+        <h2>Conclusión</h2>
+        <p>
+          La graficación ha tomado varios rumbos en su desarrollo, más sin embargo cumple con cubrir las necesidades del usuario, 
+          La historia ha demostrado que la necesidad es más que las delimitaciones de su época,
+          y un papel clave es la automatización que permitió eliminar tareas manuales y reducir el error humano. 
+          Y se llegaran más invenciones teniendo en claro imaginación ya que: “Si pasa por la Mente es posible de hacer”,
+          más con la combinación de: conocimientos, planeación y prueba y error  
+        </p>
+        <p>
+          Este recorrido muestra cómo la combinación de fórmulas matemáticas y algoritmos forman parte de la creación digital.
+        </p>
+      </section>
+
+      <!-- Fuentes -->
+      <section id="fuentes">
+        <h2>Fuentes</h2>
+        <ul>
+          <li>Apuntes de  la Mision 1.</li>
+          <li>Practicas en Libreta.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer><p>Jonathan Ulises Moreno Cisneros</p></footer>
+
+    <script>
+      /* Carrusel Evolución */
+      const momentosEvolucion = document.querySelectorAll('#evolucion .momento');
+      let indiceEvolucion = 0;
+
+      function mostrarMomentoEvolucion(i) {
+        momentosEvolucion.forEach((m, idx) => {
+          m.classList.toggle('activo', idx === i);
+        });
+      }
+
+      document.querySelectorAll('#evolucion .siguiente').forEach(btn => {
+        btn.addEventListener('click', () => {
+          indiceEvolucion = (indiceEvolucion + 1) % momentosEvolucion.length;
+          mostrarMomentoEvolucion(indiceEvolucion);
+        });
+      });
+
+      document.querySelectorAll('#evolucion .anterior').forEach(btn => {
+        btn.addEventListener('click', () => {
+          indiceEvolucion = (indiceEvolucion - 1 + momentosEvolucion.length) % momentosEvolucion.length;
+          mostrarMomentoEvolucion(indiceEvolucion);
+        });
+      });
+
+      /* Carrusel Laboratorio */
+      const momentosLab = document.querySelectorAll('#laboratorio .momento');
+      let indiceLab = 0;
+
+      function mostrarMomentoLab(i) {
+        momentosLab.forEach((m, idx) => {
+          m.classList.toggle('activo', idx === i);
+        });
+      }
+
+      document.querySelectorAll('#laboratorio .siguiente').forEach(btn => {
+        btn.addEventListener('click', () => {
+          indiceLab = (indiceLab + 1) % momentosLab.length;
+          mostrarMomentoLab(indiceLab);
+        });
+      });
+
+      document.querySelectorAll('#laboratorio .anterior').forEach(btn => {
+        btn.addEventListener('click', () => {
+          indiceLab = (indiceLab - 1 + momentosLab.length) % momentosLab.length;
+          mostrarMomentoLab(indiceLab);
+        });
+      });
+
+      /* Experimento RGB */
+     function actualizarColor() {
+        const r = document.getElementById('r').value;
+        const g = document.getElementById('g').value;
+        const b = document.getElementById('b').value;
+        const resultado = document.getElementById('resultado-color');
+        resultado.style.backgroundColor = `rgb(${r},${g},${b})`;
+      }
+    </script>
+  </body>
+</html>
